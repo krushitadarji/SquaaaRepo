@@ -15,6 +15,7 @@ namespace DMUPhones.Controllers
 
         public ActionResult About()
         {
+            //This is the description page
             ViewBag.Message = "Your application description page.";
 
             return View();
