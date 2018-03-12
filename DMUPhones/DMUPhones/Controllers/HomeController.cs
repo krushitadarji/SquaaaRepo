@@ -8,13 +8,15 @@ namespace DMUPhones.Controllers
 {
     public class HomeController : Controller
     {
+
+       
         public ActionResult Index()
         {
             return View();
         }
 
         public ActionResult About()
-        {
+        {   //this is description page 
             ViewBag.Message = "Your application description page.";
 
             return View();
