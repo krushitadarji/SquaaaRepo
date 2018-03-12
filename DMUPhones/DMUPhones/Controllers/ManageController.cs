@@ -19,7 +19,7 @@ namespace DMUPhones.Controllers
         public ManageController()
         {
         }
-
+          
         public ManageController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
             UserManager = userManager;
