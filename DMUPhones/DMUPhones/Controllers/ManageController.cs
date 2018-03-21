@@ -20,6 +20,7 @@ namespace DMUPhones.Controllers
         {
         }
 
+        //this is a public class for user name
         public ManageController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
             UserManager = userManager;
